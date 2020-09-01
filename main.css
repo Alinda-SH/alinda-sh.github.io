@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    font-family: 'courier new';
+}
+.main { 
+    padding-left: 30px;
+    min-width: 75%
+}
+.nav {
+    background-color: #66ff99;
+    max-width: 25%;
+    min-width: 15%;
+    flex: 1;
+}
+.nav ul {
+    left: 20px;
+}
+
