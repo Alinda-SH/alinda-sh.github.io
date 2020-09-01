@@ -13,10 +13,21 @@
     flex: 1;
 }
 .nav ul {
-    left: 20px;
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
 }
 .nav li {
     display: inline;
     margin-right: 20px;
 }
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #66ff99;
 
+}
+a {
+    text-decoration: none;
+}
