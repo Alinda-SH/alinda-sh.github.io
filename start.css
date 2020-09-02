@@ -8,8 +8,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: transparent;
-    position: fixed;
-    float: center!important;
+    position: fixed, absolute;
+    
 
 }
 li {
@@ -25,7 +25,7 @@ li a {
 li a:hover { 
     background-color: #31c763;
 }
-body {
-    line-height: 14px;
-}
 
+h1 {
+    display: block;
+}
