@@ -4,11 +4,12 @@ body {
 ul { 
     list-style-type: none;
     margin: 0;
+
     padding: 0;
     overflow: hidden;
     background-color: transparent;
     position: fixed;
-    float: center;
+    float: center!important;
 
 }
 li {
@@ -24,3 +25,7 @@ li a {
 li a:hover { 
     background-color: #31c763;
 }
+body {
+    line-height: 14px;
+}
+
