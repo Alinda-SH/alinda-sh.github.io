@@ -24,3 +24,12 @@ li a {
 li a:hover { 
     background-color: #31c763;
 }
+.main {
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
