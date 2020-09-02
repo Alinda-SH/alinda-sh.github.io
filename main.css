@@ -6,11 +6,19 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: blue;
+    background-color: #66ff99;
+    position: fixed;
 
 }
 li {
     float: left;
+}
+li a {
+    display: block;
+    color: hsl(116, 63%, 17%);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 li a:hover { 
     background-color: #31c763;
