@@ -28,3 +28,11 @@ li a:hover {
 h1 {
     display: block;
 }
+#pic {
+    background-image: url("forest.jpg");
+
+}
+img {
+    position: center;
+
+}
