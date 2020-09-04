@@ -57,3 +57,14 @@ h1, h2 {
 p {
     font-family: 'Helvetica';
 }
+.button {
+    background-color: #00ff55;
+    color: #001a09;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+button:hover {
+    background-color: teal;
+}
