@@ -1,3 +1,6 @@
+p {
+    font-family: 'Helvetica';
+}
 ul { 
     list-style-type: none;
     margin: 0;
@@ -54,17 +57,28 @@ h1, h2 {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-p {
-    font-family: 'Helvetica';
-}
-.button {
-    background-color: #00ff55;
-    color: #001a09;
-    padding: 14px 25px;
+
+.dropbtn {
+    background-color:  #f2f2f2;
+    color: black;
+    border: none;
+    cursor: pointer;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    display: block;
+    width: 100%;
 }
-button:hover {
-    background-color: teal;
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: 'Helvetica';
+    width: 100%;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover {
+    color: #00b33c;
 }
