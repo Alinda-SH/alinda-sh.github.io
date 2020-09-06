@@ -2,11 +2,16 @@
 .header {
     text-align: center;
     background: #d9d9d9;
+    background-image: url('banner.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    padding: 1%;
 }
 .header h3 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
-    margin-top: 5%;
+    color: wheat;
 }
 p {
     font-family: 'Helvetica';
