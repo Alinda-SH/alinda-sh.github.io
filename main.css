@@ -5,6 +5,7 @@
 .header h3 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
+    margin-top: 5%;
 }
 p {
     font-family: 'Helvetica';
@@ -38,13 +39,15 @@ ul.nav {
     padding: 0;
     overflow: hidden;
     background-color: #1a1a1a;
-    position: fixed, absolute;
+    position: fixed;
     justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 li.nav {
     float: left;
     font-family: 'Courier New', Courier, monospace;
-    margin-left: 20px;
 }
 li a {
     display: inline-block;
