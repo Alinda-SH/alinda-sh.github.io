@@ -11,6 +11,7 @@ ul {
 li {
     float: left;
     font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
 }
 li a {
     display: block;
@@ -23,8 +24,9 @@ li a:hover {
     background-color: #31c763;
 }
 
-h1 {
+h1, h2 {
     display: block;
+    font-family: 'Courier New', Courier, monospace; 
 }
 body {
     background-image: url('bos.jpg');
@@ -32,3 +34,11 @@ body {
     background-attachment: fixed;  
     background-size: cover;
   }
+.index {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+    border: 12px double black;
+    position: center;
+    text-align: center;
+}
