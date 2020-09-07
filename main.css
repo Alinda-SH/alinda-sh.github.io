@@ -7,7 +7,6 @@
     background-attachment: fixed;  
     background-size: cover;
     padding: 1%;
-    grid-area: header;
 }
 .header h3 {
     font-family: 'Courier New', Courier, monospace;
@@ -21,7 +20,7 @@ p {
 body {
     background-color: #d9d9d9;
 }
-.main {
+/* .main {
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
@@ -29,8 +28,7 @@ body {
     display: block;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 5px;
-    grid-area: content;
-}
+} */
 h1, h2 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
