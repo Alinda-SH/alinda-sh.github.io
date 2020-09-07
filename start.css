@@ -24,6 +24,17 @@ li a:hover {
     background-color: #31c763;
 }
 
+li.name a {
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    color: #e6ffee;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-right: 5%;
+}
+
 h1, h2 {
     display: block;
     font-family: 'Courier New', Courier, monospace; 
@@ -44,3 +55,4 @@ body {
     margin-top: 15%;
     margin-left: 40%;
 }
+

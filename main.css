@@ -7,6 +7,7 @@
     background-attachment: fixed;  
     background-size: cover;
     padding: 1%;
+    grid-area: header;
 }
 .header h3 {
     font-family: 'Courier New', Courier, monospace;
@@ -28,6 +29,7 @@ body {
     display: block;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     border-radius: 5px;
+    grid-area: content;
 }
 h1, h2 {
     font-family: 'Courier New', Courier, monospace;
@@ -49,16 +51,7 @@ table, tr, th, td {
     background-color: #99ffbb;
 }
 
-.name {
-    float: right;
-    font-family: 'Courier New', Courier, monospace;
-    display: block;
-    color: #e6ffee;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    padding-right: 5%;
-}
+
 
 /* Navigation bar*/
 ul.nav { 
@@ -77,7 +70,7 @@ li.nav {
     float: left;
     font-family: 'Courier New', Courier, monospace;
 }
-li a {
+li.nav a {
     display: inline-block;
     color: #e6ffee;
     text-align: center;
@@ -86,6 +79,18 @@ li a {
 }
 li.nav a:hover { 
     background-color: #00802b;
+}
+
+li.name a {
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    color: #e6ffee;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-right: 5%;
+    background-color: transparent;
 }
 
 /* Dropdown: text*/
