@@ -37,17 +37,6 @@ body {
 
 
 /* GRID */
-  .container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 200px;
-    grid-template-areas: 
-      ". . ."
-      ". text ."
-      ". . . "
-}
-
 .wrapper {
     background-color: transparent;
 }
