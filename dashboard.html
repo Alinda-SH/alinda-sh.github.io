@@ -3,6 +3,7 @@
     <head> 
         <link rel="stylesheet" type="text/css" href="main.css">
         <link rel="stylesheet" type="text/css" href="grid.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
         <title>Dashboard</title>
 
@@ -22,11 +23,11 @@
                 <h3>Portfolio <br> Alinda S.H. Klap</h3>
             </div>
 
-        <div class="content">
+        <div class="content-db">
         <div class="blank"></div>
 
         <div class="main"> 
-            <h1>Assignment</h1>
+     <!--       <h1>Assignment</h1>
                 <p>
                 The purpose of this page is to create and maintain a clear overview of your study. This also shows to your student 
                 career coach that you have some detailed knowledge where you can find relevant information and what your activities 
@@ -52,7 +53,7 @@
                     The page in MyHZ with your study progress <br>
                     The Github environment of the study programme <br>
                 
-                </p>  
+                </p>  -->
 
                 <h1>Study Monitor</h1>
                 <table style="width: 100%;">
@@ -197,6 +198,31 @@
                     </tr>
                 </table>
 
+
+        <!-- PROGRESS BAR -->
+            <script>
+                    function move() {
+                    var elem = document.getElementById("myBar");   
+                    var width = 25;
+                    var id = setInterval(frame, 10);
+                    function frame() {
+                        if (width >= 100) {
+                        clearInterval(id);
+                        } else {
+                        width++; 
+                        elem.style.width = width + '%'; 
+                        document.getElementById("demo").innerHTML = width * 1  + '%';
+                        }
+                    }
+                    }
+            </script>
+            
+            <div class="w3-light-grey w3-round-xlarge">
+                <div class="w3-container w3-blue w3-round-xlarge" style="width:0%">0%</div>
+              </div>
+            </div>
+
+        <!-- DROPDOWN - STUDYGUIDE -->
                 <div class="dropdown"> 
                     <button class="dropbtn"><h2>Study Guide</h2> </button>
                     <div class="dropdown-content">
@@ -207,8 +233,6 @@
                     <a href="https://portal.hz.nl/">MyHZ </a>
                     <a href="https://github.com/">Github </a>
                 </div></div>
-
-            <div class="blank"></div>
 
         </div>
 
