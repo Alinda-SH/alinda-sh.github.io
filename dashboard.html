@@ -56,6 +56,12 @@
                 </p>  -->
 
                 <h1>Study Monitor</h1>
+            <!-- PROGRESS BAR -->          
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-container w3-blue w3-round-xlarge" style="width:0%">0%</div>
+                    </div>
+
+            <!-- TABEL STUDY MONITOR -->
                 <table style="width: 100%;">
                     <tr>
                         <th>Quartile</th>
@@ -199,27 +205,7 @@
                 </table>
 
 
-        <!-- PROGRESS BAR -->
-            <script>
-                    function move() {
-                    var elem = document.getElementById("myBar");   
-                    var width = 25;
-                    var id = setInterval(frame, 10);
-                    function frame() {
-                        if (width >= 100) {
-                        clearInterval(id);
-                        } else {
-                        width++; 
-                        elem.style.width = width + '%'; 
-                        document.getElementById("demo").innerHTML = width * 1  + '%';
-                        }
-                    }
-                    }
-            </script>
-            
-            <div class="w3-light-grey w3-round-xlarge">
-                <div class="w3-container w3-blue w3-round-xlarge" style="width:0%">0%</div>
-              </div>
+ 
             </div>
 
         <!-- DROPDOWN - STUDYGUIDE -->
