@@ -48,19 +48,14 @@ body {
       ". . . "
 }
 
-
 .wrapper {
-  /*  border: 2px solid #f76707;
-    border-radius: 5px; */
     background-color: transparent;
 }
 
-.wrapper > div {
-  /*  border: 2px solid #ffa94d;
-    border-radius: 5px; */
+/*.wrapper > div {
     background-color:transparent;
     padding: 1em;
-}
+} */
 .wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -69,43 +64,17 @@ body {
   grid-template-areas: 
     ". . . ."
     ". a a ."
-    ". a a ."
-    ". . . .";
+    ". a a .";
 }
 
 .index {
-
     padding-left: 20px;
     padding-right: 20px;
     display: block;
     border: 12px double black;
     position: center;
     text-align: center;
- /*   margin-top: 15%;
-    margin-left: 40%; */
     grid-area: a;
     align-self: center;
     justify-self: center;
 }
-/*
-.mid {
-    grid-area: mid;
-    grid-template-columns: 40% 20% 40%;
-    display: grid; */
-}
-/*
-.blank {
-    background-color: transparent;
-    width: 1fr;
-  }
-  .header {
-    background-color: transparent;
-    grid-area: header;
-    width: 1fr;
-  }
-  .footer {
-    background-color: transparent;
-    grid-area: footer;
-    width: 1fr;
-  }
-*/
