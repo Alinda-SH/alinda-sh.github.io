@@ -132,3 +132,19 @@ li.name a {
   .dropdown-content a:hover {
     color: #00b33c;
   }
+
+
+/* PROGRESS BAR */
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 20px;
+}
+
+#myBar {
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  border-radius: 20px;
+}

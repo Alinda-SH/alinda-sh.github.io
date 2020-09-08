@@ -2,8 +2,7 @@
 <html>
     <head> 
         <link rel="stylesheet" type="text/css" href="main.css">
-        <link rel="stylesheet" type="text/css" href="grid.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" type="text/css" href="grid.css"> 
 
         <title>Dashboard</title>
 
@@ -29,16 +28,16 @@
         <div class="main"> 
 
             <h1>Study Monitor</h1>
+
             <!-- PROGRESS BAR --> 
-            
-                <p>My progress (EC): </p>
-                    <div class="w3-light-grey w3-round-xlarge">
-                        <div class="w3-container w3-blue w3-round-xlarge" style="width:0%">0</div>
-                    </div>
+                <p>My progress (EC):
+                    <div id="myProgress">
+                        <div id="myBar" style="background-color: green; width: 1%;">0</div>
+                      </div>
 
                 <p>NBSA boundary (EC):</p>                    
-                    <div class="w3-light-grey w3-round-xlarge">
-                        <div class="w3-container w3-red w3-round-xlarge" style="width:75%">45</div>
+                    <div id="myProgress">
+                        <div id="myBar" style="background-color: red; width: 75%;">45</div>
                     </div>
 
             <!-- TABEL STUDY MONITOR -->
@@ -200,7 +199,6 @@
                 </div></div>
 
         </div>
-
 
     </div>
 
