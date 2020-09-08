@@ -71,7 +71,6 @@ li.nav a {
 li.nav a:hover { 
     background-color: #00802b;
 }
-
 li.name a {
     float: right;
     font-family: 'Courier New', Courier, monospace;
@@ -91,7 +90,6 @@ li.name a {
     display: block;
     margin: 0 10px 50px 10px;
   }
-  
   .dropdown-content {
     display: none;
     position: absolute;
@@ -101,7 +99,6 @@ li.name a {
     padding: 12px 16px;
     z-index: 1;
   }
-  
   .dropdown:hover .dropdown-content {
     display: block;
   }
@@ -140,7 +137,6 @@ li.name a {
   background-color: #ddd;
   border-radius: 20px;
 }
-
 #myBar {
   height: 30px;
   text-align: center;

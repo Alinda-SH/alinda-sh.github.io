@@ -33,14 +33,13 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
-  }
+}
 
 
 /* GRID */
 .wrapper {
     background-color: transparent;
 }
-
 .wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -51,7 +50,6 @@ body {
     ". a a ."
     ". a a .";
 }
-
 .index {
     padding-left: 20px;
     padding-right: 20px;
