@@ -41,8 +41,6 @@ table, tr, th, td {
     background-color: #99ffbb;
 }
 
-
-
 /* NAVIGATION BAR */
 ul.nav { 
     list-style-type: none;
@@ -82,7 +80,6 @@ li.name a {
     padding-right: 5%;
     background-color: transparent;
 }
-
 
 /* DROPDOWN TEXT */
 .dropdown {
@@ -129,7 +126,6 @@ li.name a {
   .dropdown-content a:hover {
     color: #00b33c;
   }
-
 
 /* PROGRESS BAR */
 #myProgress {
