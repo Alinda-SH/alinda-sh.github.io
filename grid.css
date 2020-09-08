@@ -44,7 +44,7 @@
 .profile {
   display: grid;
   margin: 10px;
-  grid-template-columns: 3fr 1fr);
+  grid-template-columns: 3fr 1fr;
   grid-template-rows: auto auto auto;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
@@ -63,7 +63,7 @@
 }
 
 .free {
-  grid-area free;
+  grid-area: free;
 }
 
 .basic {
