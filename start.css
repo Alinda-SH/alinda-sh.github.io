@@ -52,10 +52,6 @@ body {
     background-color: transparent;
 }
 
-/*.wrapper > div {
-    background-color:transparent;
-    padding: 1em;
-} */
 .wrapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
