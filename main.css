@@ -86,7 +86,7 @@ li.name a {
 .dropdown {
     position: relative;
     display: block;
-    margin-bottom: 100px;
+    margin: 0 10px 100px 10px;
   }
   
   .dropdown-content {
@@ -112,6 +112,7 @@ li.name a {
     text-align: center;
     display: block;
     width: 100%;
+    border-radius: 5px;
 }
 .dropdown-content a {
     color: black;
