@@ -1,4 +1,4 @@
-
+/* GRID MAIN - FULL PAGE */
 .header {
     text-align: center;
     background: #d9d9d9;
@@ -34,13 +34,14 @@
       "content";
   }
 
-  .content {
+.content {
     background: #d9d9d9;
     grid-area: content;
     grid-template-columns: 1fr 3fr 1fr;
     display: grid;
   }
 
+/* GRID PROFILE */
 .profile {
   display: grid;
   margin: 10px;
@@ -69,8 +70,13 @@
 
 .basic {
   grid-area: basic;
+  grid-template-columns: 3fr 1fr;
+  display: grid;
 }
 
 .gall {
   grid-area: gallery;
+}
+.me {
+  border-radius: 50%;
 }
