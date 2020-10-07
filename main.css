@@ -29,6 +29,9 @@ h4 {
 ul {
   font-family: 'Courier New', Courier, monospace;
 }
+ol {
+  font-family: 'Courier New', Courier, monospace;
+}
 
 /* TABLE, DASHBOARD */
 table, tr, th, td {
