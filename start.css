@@ -1,0 +1,62 @@
+/* NAVIGATION BAR */
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed, absolute;
+}
+li {
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+}
+li a {
+    display: block;
+    color: hsl(116, 63%, 17%);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover { 
+    background-color: #31c763;
+}
+
+/* MAIN */
+h1, h2 {
+    display: block;
+    font-family: 'Courier New', Courier, monospace; 
+}
+body {
+    background-image: url('bos.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+/* GRID */
+.wrapper {
+    background-color: transparent;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 150px;
+  grid-template-areas: 
+    ". . . ."
+    ". a a ."
+    ". a a .";
+}
+.index {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    border: 12px double black;
+    position: center;
+    text-align: center;
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+}
