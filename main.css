@@ -1,91 +1,141 @@
-body {
-    margin: 0;
+/* MAIN */
+h1 {
+    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-  }
-  
-.source {
-  font-size: x-small;
-  font-style: italic;
-}
-/* Navigation Bar */ 
-.nav {
-  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-  font-size: 24px;
-  text-align:center
 }
 
-#name {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 30px;
+body.index {
+    background-image: url('projector2.0.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
 }
-  ul.nav {
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* NAVIGATION BAR */
+
+
+ul.nav { 
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 20%;
-    background-color: darkslategray;
+    overflow: hidden;
+    background-color: transpirant;
     position: fixed;
-    height: 100%;
-    overflow: auto;
-  }
-  
-  li.nav a {
-    display: block;
-    color: #000;
-    padding: 16px 16px;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+li.nav {
+    float: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 5px 0 5px;
+}
+li.nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-  }
-   
-  li.nav a:hover {
-    color: white;
-  }
+}
+li.nav a:hover { 
+    color: darkgray;
+}
+li#name a {
+    font-size: large;
+}
 
 /* Grid */
+.container {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    display: grid;
+    grid-template-columns: auto 1fr ;
+    grid-template-rows: 1fr auto ;
+    grid-gap: 15px;
+    grid-template-areas:
+    "header main"
+    "header footer";
+     
+  } 
+.nav-bar {
+    grid-area: header;
+}
 .main {
-    margin-left:20%;
-    padding:1px 16px;
-    height:1000px;
-  display: block;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto 1fr;
-  grid-row-gap: 10px; 
-  grid-column-gap: 30px; 
-  display: grid;
-  grid-template-areas:
-  "content-head content-right"
-  "content-left content-right"
+    background-color: white;
+    display: block;
+    margin-left: 10%;
+    align-items: center;
+    grid-area: 15px;
+    grid-template-columns: 50% 1fr;
+    grid-template-rows: auto auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 30px;
+    display: grid;
+    grid-template-areas:
+    "content-head content-right"
+    "content-left content-right"
 }
 .content-head {
-  grid-area: content-head;
-  display: block;    
-  background-color: transparent;
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+    grid-area: content-head;
+    display: block;    
+    background-color: violet;
+
 }
 .content-left {
-  grid-area: content-left;
-  display: block;
-  background-color: transparent;
-  padding: 15px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    grid-area: content-left;
+    display: block;
+    background-color: teal;
 }
 .content-right {
-  grid-area: content-right;
-  display: block;
-  background-color: transparent;
-  padding: 15px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    grid-area: content-right;
+    display: block;
+    background-color: tomato;
 }
-/* PROGRESS BAR */
-#myProgress {
-  width: 100%;
-  background-color: #ddd;
-  border-radius: 20px;
+.footer {
+    grid-area: footer;
 }
-#myBar {
-  height: 30px;
-  text-align: center;
-  line-height: 30px;
-  color: white;
-  border-radius: 20px;
-}
+
+/* GRID HOME - HBO */
+.level {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-template-areas:
+    "quest anwser"
+  }
+  .quest {
+    grid-area: quest;
+  }
+  .anwser {
+    grid-area: anwser;
+  }
+
+/* DROPDOWN TEXT */
+.dropdown {
+    position: relative;
+    display: block;
+    margin: 0 10px 50px 10px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 1fr;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
